@@ -5,7 +5,7 @@ import AnimatedText from "./AnimatedText";
 export default function Root() {
   return (
     <View style={styles.container}>
-      <AnimatedText>
+      <AnimatedText duration={900}>
         People have been coming to the wise man, complaining about the same
         problems every time. One day he told them a joke and everyone roared in
         laughter.
